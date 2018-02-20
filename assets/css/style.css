@@ -232,3 +232,30 @@ a.nav_list {
     flex-direction: column;
     min-height: 100vh;
 }
+
+/* Media Queries */
+
+/* These rules take effect when the browser's width is 980px or less. */
+@media screen and (max-width: 980px) {
+    .body {
+        background-image: url("./../images/polka-dots.png");
+    }
+
+    .profile_pic {
+        display: flex;  
+        height: auto;
+        width: auto;
+    }
+
+    .about_me {
+        margin: 45px 2.5% 0px 15%;
+    }
+
+    .about_me_bottom {
+       
+    }
+
+    .connect_with_me {
+        margin: 45px 10% 0px 2.5%;
+    }
+}

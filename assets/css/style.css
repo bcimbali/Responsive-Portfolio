@@ -326,11 +326,12 @@ a.nav_list {
 
     .connect_with_me {
         margin: 45px auto 0px auto;
+        height: 100%;
     }
 
     .header {
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
         height: 175px;
         width: 100%;
@@ -342,12 +343,16 @@ a.nav_list {
 
     .nav_list {
         display: flex;
-        justify-content: space-between;
-        padding: 12px 10%;
+        justify-content: space-around;
+        padding: 12px 0;
+        /* margin: 0 0%; */
+        order: 1;
     }  
 
     .nav_list li {
         display: flex;
+        padding: 0 1rem;
+        /* margin: 0 20%; */
     }
 
     .portfolio_bottom {

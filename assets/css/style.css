@@ -330,6 +330,8 @@ a.nav_list {
 
     .header {
         flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
         height: 175px;
         width: 100%;
     }
@@ -340,8 +342,8 @@ a.nav_list {
 
     .nav_list {
         display: flex;
-        justify-content: space-around;
-        padding: 12px 3rem;
+        justify-content: space-between;
+        padding: 12px 10%;
     }  
 
     .nav_list li {

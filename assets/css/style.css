@@ -231,6 +231,7 @@ a.nav_list {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 /*********************** Media Queries ***********************/
@@ -319,9 +320,18 @@ a.nav_list {
         float: none;
     }
 
+    .about_me {
+        margin: 45px auto 0px auto;
+    }
+
+    .connect_with_me {
+        margin: 45px auto 0px auto;
+    }
+
     .header {
         flex-wrap: wrap;
         height: 175px;
+        width: 100%;
     }
 
     .my_name {
@@ -331,7 +341,7 @@ a.nav_list {
     .nav_list {
         display: flex;
         justify-content: space-around;
-        padding: 12px 4rem;
+        padding: 12px 3rem;
     }  
 
     .nav_list li {

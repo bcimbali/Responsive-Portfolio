@@ -233,7 +233,7 @@ a.nav_list {
     min-height: 100vh;
 }
 
-/* Media Queries */
+/*********************** Media Queries ***********************/
 
 /* These rules take effect when the browser's width is 980px or less. */
 @media screen and (max-width: 980px) {
@@ -245,10 +245,12 @@ a.nav_list {
         display: flex;  
         height: auto;
         width: auto;
+        justify-content: center;
     }
 
     .about_me {
         margin: 45px 2.5% 0px 15%;
+        width: 50%;
     }
 
     .about_me_bottom {
@@ -257,5 +259,58 @@ a.nav_list {
 
     .connect_with_me {
         margin: 45px 15% 0px 2.5%;
+       
+    }
+
+    .connect_top {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+/* These rules take effect when the browser's width is 768px or less. */
+@media screen and (max-width: 768px) {
+    .body {
+        background-image: url("./../images/christmas-colour.png");
+    }
+
+    .main_section {
+        flex-direction: column;
+    }
+
+    .profile_pic {
+        display: flex;  
+        height: auto;
+        width: auto;
+    }
+
+    .about_me {
+        margin: 45px auto 0px auto;
+        width: 87%;
+    }
+
+    .connect_with_me {
+        margin: 45px auto 0px auto;
+        width: 87%;
+    }
+
+    .connect_bottom {
+        justify-content: flex-start;
+    }
+
+    .portfolio_bottom {
+        margin: auto;
+        padding: 30px auto 0px auto;
+        justify-content: space-between;
+    }
+
+    .portfolio_bottom img {
+    }
+}
+
+/* These rules take effect when the browser's width is 640px or less. */
+@media screen and (max-width: 640px) {
+    .body {
+        background-image: url("./../images/congruent_pentagon.png");
     }
 }

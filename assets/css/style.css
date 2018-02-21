@@ -313,4 +313,32 @@ a.nav_list {
     .body {
         background-image: url("./../images/congruent_pentagon.png");
     }
+
+    .profile_pic {
+        width: 100%;
+        float: none;
+    }
+
+    .header {
+        flex-wrap: wrap;
+        height: 175px;
+    }
+
+    .my_name {
+        width: 100%;
+    }
+
+    .nav_list {
+        display: flex;
+        justify-content: space-around;
+        padding: 12px 4rem;
+    }  
+
+    .nav_list li {
+        display: flex;
+    }
+
+    .portfolio_bottom {
+        justify-content: center;
+    }
 }

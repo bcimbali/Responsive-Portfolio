@@ -1,4 +1,4 @@
-/* Applies a natural box layout model to all elements, but allowing components to change */
+/* Applies a natural box layout model to all elements, but allowing components to change. */
 html {
     box-sizing: border-box;
   }
@@ -17,7 +17,16 @@ html {
     font-weight: bold;
 }
 
-/************ Header Styling *****************/
+/**************************** The background image - The wrapper for the ENTIRE page *******************/
+.body {
+    background-image: url("./../images/memphis-colorful.png");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+/********************************************* Header Styling *******************************************/
 .header {
     align-items: center;
     background-color: #ffffff;
@@ -27,7 +36,7 @@ html {
     justify-content: space-around;
 }
 
-/**************** Teal section that contains my name (top-left) - in the Header *************/
+/* Teal section that contains my name (top-left) - in the Header */
 .my_name {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -37,7 +46,7 @@ html {
     padding: 35px 15px 35px 15px;
 }
 
-/***************** Navigation bar (top-right) styling - also in the Header *****************/
+/* Navigation bar (top-right) styling - also in the Header */
 a.nav_list {
     display: flex;
     font-size: 20px;
@@ -67,7 +76,7 @@ a.nav_list {
     margin-bottom: 35px;
 }
 
-/***************** The 'About Me' box - in the Main Section ******************/
+/********************************* The 'About Me' box - in the Main Section *********************************/
 .about_me {
     background-color: #ffffff;
     border: 1px solid lightgrey;
@@ -77,6 +86,13 @@ a.nav_list {
     margin-right: 22.5px;
     padding: 20px;
     width: 650px;
+}
+
+.about_me_bottom {
+    border-top: solid #cccccc 2px;
+    line-height: 30px;
+    margin: 30px;
+    padding-top: 30px;
 }
 
 .about_me_top {
@@ -89,24 +105,36 @@ a.nav_list {
     padding-top: 10px;  
 }
 
-.about_me_bottom {
-    border-top: solid #cccccc 2px;
-    line-height: 30px;
-    margin: 30px;
-    padding-top: 30px;
+/* Styling for the profile image in 'About Me' article section */
+.profile_pic {
+    height: 200px;
+    float: left;
+    padding: 10px 20px 20px 0px;
+    width: 200px;
 }
 
-/************************** Portfolio section styling. **********************/
-.portfolio_top {
-    border-bottom: solid #cccccc 2px;
-    color: #4aaaa5;
-    display: flex;
-    font-size: xx-large;
-    justify-content: flex-start;
-    padding-left: 30px;
-    padding-top: 10px; 
+/*********************************** Portfolio section styling. *************************************/
+
+/* Teal banner over portfolio images. */
+.overlay {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: x-large;
+    height: 20%;
+    line-height: 60px;
+    position: relative;
+    text-align: center;
+    top: -65px;
+    width: 100%;
+  }
+
+/* Portfolio image styling. */
+.portfolio_bottom img {
+    height: 200px; 
+    width: 270px;
 }
 
+/* Rest of the Portfolio section. */
 .portfolio_bottom {
     border-top: solid #cccccc 2px;
     display: flex;
@@ -121,26 +149,17 @@ a.nav_list {
     width: 270px;
 }
 
-/* Banner over portfolio images. */
-.overlay {
-    background-color: #4aaaa5;
-    color: white;
-    font-size: x-large;
-    height: 20%;
-    line-height: 60px;
-    position: relative;
-    text-align: center;
-    top: -65px;
-    width: 100%;
-  }
-
-.portfolio_bottom img {
-    height: 200px; 
-    width: 270px;
+.portfolio_top {
+    border-bottom: solid #cccccc 2px;
+    color: #4aaaa5;
+    display: flex;
+    font-size: xx-large;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-top: 10px; 
 }
 
-
-/************************** Specific styling for contact section. ******************/
+/**************************************** Specific styling for contact section. ******************************/
 .contact_bottom {
     border-top: solid #cccccc 2px;
     margin: 30px;
@@ -156,13 +175,6 @@ a.nav_list {
     width: 100%;
 }
 
-.text_area {
-    height: 150px;
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;  
-}
-
 .submit_button {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -172,15 +184,29 @@ a.nav_list {
     padding: 10px 32px;
 }
 
-/************************* Styling for the profile image ***********************/
-.profile_pic {
-    height: 200px;
-    float: left;
-    padding: 10px 20px 20px 0px;
-    width: 200px;
+.text_area {
+    height: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;  
 }
 
 /*********************** The 'Connect with Me' box on the right - In the Main Section *******************/
+
+.connect_bottom {
+    align-items: center;
+    border-top: solid #cccccc 2px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.connect_top {
+    color: #4aaaa5;
+    font-size: x-large;
+    padding-bottom: 30px;
+}
+
 .connect_with_me {
     background-color: #ffffff;
     border: 1px solid lightgrey;
@@ -191,20 +217,6 @@ a.nav_list {
     margin-top: 45px;
     padding: 30px;
     width: 270px; 
-}
-
-.connect_top {
-    color: #4aaaa5;
-    font-size: x-large;
-    padding-bottom: 30px;
-}
-
-.connect_bottom {
-    align-items: center;
-    border-top: solid #cccccc 2px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
 }
 
 /******************************** Sticky footer section at bottom of page ********************************/
@@ -218,14 +230,6 @@ a.nav_list {
     height: 100px;
     margin: auto auto 0 auto;
     width: 100%;
-}
-/**************************** The background image - The wrapper for the ENTIRE page *******************/
-.body {
-    background-image: url("./../images/memphis-colorful.png");
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    min-width: 100vw;
 }
 
 /******************************************** MEDIA QUERIES SECTION ***********************************/

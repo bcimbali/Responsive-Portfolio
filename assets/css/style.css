@@ -174,7 +174,8 @@ a.nav_list {
     border-top: solid #cccccc 2px;
     display: flex;
     flex-flow: row wrap;
-    margin: 30px;
+    justify-content: space-between;
+    margin: 30px 3%;
     padding-top: 30px;
 }
 
@@ -251,11 +252,12 @@ a.nav_list {
         display: flex;  
         height: auto;
         justify-content: center;
-        width: auto;
+        width: 100%;
+        padding: 10px 0 20px 0;
     }
 
     .about_me {
-        margin: 45px 2.5% 0px 15%;
+        margin: 45px 2.5% 0px 10%;
         width: 50%;
     }
 
@@ -282,6 +284,7 @@ a.nav_list {
     .profile_pic {
         display: flex;  
         height: auto;
+        padding: 10px 20px 20px 0px;
         width: auto;
     }
 
@@ -315,6 +318,7 @@ a.nav_list {
     .profile_pic {
         float: none;
         width: 100%;
+        padding: 0;
     }
 
     .about_me {

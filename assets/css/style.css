@@ -258,7 +258,7 @@ a.nav_list {
 
     .about_me {
         margin: 45px 2.5% 0px 10%;
-        width: 50%;
+        width: 45%;
     }
 
     .connect_with_me {
@@ -268,6 +268,10 @@ a.nav_list {
     .connect_top {
         display: flex;
         flex-wrap: nowrap;
+    }
+
+    .portfolio_bottom {
+        justify-content: center;
     }
 }
 
@@ -315,12 +319,6 @@ a.nav_list {
         background-image: url("./../images/congruent_pentagon.png");
     }
 
-    .profile_pic {
-        float: none;
-        width: 100%;
-        padding: 0;
-    }
-
     .about_me {
         margin: 45px auto 0px auto;
     }
@@ -356,5 +354,11 @@ a.nav_list {
 
     .portfolio_bottom {
         justify-content: center;
+    }
+
+    .profile_pic {
+        float: none;
+        width: 100%;
+        padding: 0;
     }
 }

@@ -254,14 +254,6 @@ a.nav_list {
 
 /* These rules take effect when the browser's width is 980px or less. */
 @media screen and (max-width: 980px) {
-    .profile_pic {
-        display: flex;  
-        height: auto;
-        justify-content: center;
-        width: 100%;
-        padding: 10px 0 20px 0;
-    }
-
     .about_me {
         margin: 45px 2.5% 0px 10%;
         width: 45%;
@@ -290,24 +282,25 @@ a.nav_list {
         margin: 2px;
         width: 270px;
     }
-}
-
-/* These rules take effect when the browser's width is 768px or less. */
-@media screen and (max-width: 768px) {
-    .main_section {
-        flex-direction: column;
-    }
 
     .profile_pic {
         display: flex;  
         height: auto;
-        padding: 10px 20px 20px 0px;
-        width: auto;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 0 20px 0;
     }
+}
 
+/* These rules take effect when the browser's width is 768px or less. */
+@media screen and (max-width: 768px) {
     .about_me {
         margin: 45px auto 0px auto;
         width: 87%;
+    }
+
+    .connect_bottom {
+        justify-content: flex-start;
     }
 
     .connect_with_me {
@@ -315,8 +308,8 @@ a.nav_list {
         width: 87%;
     }
 
-    .connect_bottom {
-        justify-content: flex-start;
+    .main_section {
+        flex-direction: column;
     }
 
     .portfolio_bottom {
@@ -334,6 +327,13 @@ a.nav_list {
         margin: 2px;
         height: 65%;
         width: 45%;
+    }
+
+    .profile_pic {
+        display: flex;  
+        height: auto;
+        padding: 10px 20px 20px 0px;
+        width: auto;
     }
 }
 
@@ -381,15 +381,15 @@ a.nav_list {
         width: 270px;
     }
 
-    .profile_pic {
-        float: none;
-        width: 100%;
-        padding: 0;
-    }
-
     .portfolio_box {
         height: 240px;
         margin: 2px;
         width: 270px;
+    }
+
+    .profile_pic {
+        float: none;
+        width: 100%;
+        padding: 0;
     }
 }

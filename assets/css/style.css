@@ -159,9 +159,9 @@ a.nav_list {
 .overlay {
     background-color: #4aaaa5;
     color: white;
-    font-size: x-large;
-    height: 20%;
-    line-height: 60px;
+    font-size: large;
+    height: 18%;
+    line-height: 45px;
     position: relative;
     text-align: center;
     top: -65px;
@@ -170,8 +170,10 @@ a.nav_list {
 
 /* Portfolio image styling. */
 .portfolio_bottom img {
-    height: 200px; 
-    width: 270px;
+    /* height: 200px; 
+    width: 270px; */
+    min-height: 200px;
+    width: 100%;
 }
 
 /* Rest of the Portfolio section. */
@@ -185,9 +187,12 @@ a.nav_list {
 }
 
 .portfolio_box {
-    height: 240px;
+    /* height: 240px;
     margin: 2px;
-    width: 270px;
+    width: 270px; */
+    margin: 2px;
+    height: 65%;
+    width: 45%;
 }
 
 .portfolio_top {
@@ -249,10 +254,6 @@ a.nav_list {
 
 /* These rules take effect when the browser's width is 980px or less. */
 @media screen and (max-width: 980px) {
-    /* .body {
-        background-image: url("./../images/polka-dots.png");
-    } */
-
     .profile_pic {
         display: flex;  
         height: auto;
@@ -278,14 +279,21 @@ a.nav_list {
     .portfolio_bottom {
         justify-content: center;
     }
+
+    .portfolio_bottom img {
+        height: 200px; 
+        width: 270px;
+    }
+
+    .portfolio_box {
+        height: 240px;
+        margin: 2px;
+        width: 270px;
+    }
 }
 
 /* These rules take effect when the browser's width is 768px or less. */
 @media screen and (max-width: 768px) {
-    /* .body {
-        background-image: url("./../images/christmas-colour.png");
-    } */
-
     .main_section {
         flex-direction: column;
     }
@@ -316,14 +324,21 @@ a.nav_list {
         justify-content: space-between;
         padding: 30px auto 0px auto;
     }
+
+    .portfolio_bottom img {
+        min-height: 200px;
+        width: 100%;
+    }
+
+    .portfolio_box {
+        margin: 2px;
+        height: 65%;
+        width: 45%;
+    }
 }
 
 /* These rules take effect when the browser's width is 640px or less. */
 @media screen and (max-width: 640px) {
-    /* .body {
-        background-image: url("./../images/congruent_pentagon.png");
-    } */
-
     .about_me {
         margin: 45px auto 0px auto;
     }
@@ -361,9 +376,20 @@ a.nav_list {
         justify-content: center;
     }
 
+    .portfolio_bottom img {
+        height: 200px; 
+        width: 270px;
+    }
+
     .profile_pic {
         float: none;
         width: 100%;
         padding: 0;
+    }
+
+    .portfolio_box {
+        height: 240px;
+        margin: 2px;
+        width: 270px;
     }
 }

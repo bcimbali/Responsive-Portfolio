@@ -46,6 +46,11 @@ html {
     padding: 35px 15px 35px 15px;
 }
 
+a.brett_cimbalik_link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* Navigation bar (top-right) styling - also in the Header */
 a.nav_list {
     display: flex;

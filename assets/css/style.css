@@ -244,9 +244,9 @@ a.nav_list {
 
 /* These rules take effect when the browser's width is 980px or less. */
 @media screen and (max-width: 980px) {
-    .body {
+    /* .body {
         background-image: url("./../images/polka-dots.png");
-    }
+    } */
 
     .profile_pic {
         display: flex;  
@@ -277,9 +277,9 @@ a.nav_list {
 
 /* These rules take effect when the browser's width is 768px or less. */
 @media screen and (max-width: 768px) {
-    .body {
+    /* .body {
         background-image: url("./../images/christmas-colour.png");
-    }
+    } */
 
     .main_section {
         flex-direction: column;
@@ -315,9 +315,9 @@ a.nav_list {
 
 /* These rules take effect when the browser's width is 640px or less. */
 @media screen and (max-width: 640px) {
-    .body {
+    /* .body {
         background-image: url("./../images/congruent_pentagon.png");
-    }
+    } */
 
     .about_me {
         margin: 45px auto 0px auto;

@@ -29,12 +29,31 @@ html {
 /********************************************* Header Styling *******************************************/
 .header {
     align-items: center;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    -webkit-animation: colorchange 10s infinite;
+    animation: colorchange 10s infinite;
     border-bottom: solid #cccccc 2px;
     display: flex;
     height: 100px;
     justify-content: space-around;
 }
+
+@-webkit-keyframes colorchange {
+    0% {background: #52F0F0}
+    25% {background: #DAE7CF}
+    50% {background: #F4C85A}
+    62% {background: #F8D4CF}
+    75% {background: #DCDBEA}
+    100% {background: #8D2F54}
+  }
+  @@keyframes colorchange {
+    0% {background: #52F0F0}
+    25% {background: #DAE7CF}
+    50% {background: #F4C85A}
+    62% {background:  #F8D4CF}
+    75% {background: #DCDBEA}
+    100% {background: #8D2F54}
+  }
 
 /* Teal section that contains my name (top-left) - in the Header */
 .my_name {
@@ -59,13 +78,15 @@ a.nav_list {
 }
 
 .nav_list {
+    color: #ffffff;
+    font-weight: bolder;
     display: flex;
     justify-content: space-around;
     padding: 12px;
 }   
 
 .nav_list li {
-    border-right: 1px solid lightgrey;
+    border-right: 1px solid #ffffff;
     display: flex;
     list-style-type:none;
 }

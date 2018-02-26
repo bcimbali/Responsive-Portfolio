@@ -29,9 +29,8 @@ html {
 /********************************************* Header Styling *******************************************/
 .header {
     align-items: center;
-    /* background-color: #ffffff; */
-    -webkit-animation: colorchange 10s infinite;
-    animation: colorchange 10s infinite;
+    -webkit-animation: colorchange 30s infinite;
+    animation: colorchange 30s infinite;
     border-bottom: solid #cccccc 2px;
     display: flex;
     height: 100px;
@@ -39,20 +38,22 @@ html {
 }
 
 @-webkit-keyframes colorchange {
-    0% {background: #52F0F0}
-    25% {background: #DAE7CF}
-    50% {background: #F4C85A}
-    62% {background: #F8D4CF}
-    75% {background: #DCDBEA}
-    100% {background: #8D2F54}
+    0% {background: rgb(194, 247, 247)}
+    16% {background: #DAE7CF}
+    32% {background: rgb(255, 225, 148)}
+    48% {background: #F8D4CF}
+    64% {background: #DCDBEA}
+    80% {background: rgb(187, 212, 198)}
+    100% {background: rgb(167, 221, 185)}
   }
   @@keyframes colorchange {
-    0% {background: #52F0F0}
-    25% {background: #DAE7CF}
-    50% {background: #F4C85A}
-    62% {background:  #F8D4CF}
-    75% {background: #DCDBEA}
-    100% {background: #8D2F54}
+    0% {background:  rgb(194, 247, 247)}
+    16% {background: #DAE7CF}
+    32% {background: rgb(255, 225, 148)}
+    48% {background:  #F8D4CF}
+    64% {background: #DCDBEA}
+    80% {background: rgb(187, 212, 198)}
+    100% {background: rgb(167, 221, 185)}
   }
 
 /* Teal section that contains my name (top-left) - in the Header */
@@ -70,6 +71,10 @@ a.brett_cimbalik_link {
     text-decoration: none;
 }
 
+a.brett_cimbalik_link:hover {
+    color: rgb(211, 0, 165);
+}
+
 /* Navigation bar (top-right) styling - also in the Header */
 a.nav_list {
     display: flex;
@@ -77,8 +82,12 @@ a.nav_list {
     text-decoration: none;
 }
 
+a.nav_list:hover {
+    color: rgb(211, 0, 165);
+}
+
 .nav_list {
-    color: #ffffff;
+    color: gray;
     font-weight: bolder;
     display: flex;
     justify-content: space-around;
@@ -86,7 +95,7 @@ a.nav_list {
 }   
 
 .nav_list li {
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid gray;
     display: flex;
     list-style-type:none;
 }

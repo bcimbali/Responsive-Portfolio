@@ -198,6 +198,10 @@ a.nav_list:hover {
     width: 100%;
   }
 
+  .overlay a {
+      text-decoration: none;
+  }
+
 /* Portfolio image styling. */
 .portfolio_bottom img {
     /* height: 200px; 
@@ -223,6 +227,10 @@ a.nav_list:hover {
     margin: 2px;
     height: 65%;
     width: 45%;
+}
+
+.portfolio_box a {
+    text-decoration: none;
 }
 
 .portfolio_top {

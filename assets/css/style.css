@@ -29,8 +29,7 @@ html {
 /********************************************* Header Styling *******************************************/
 .header {
     align-items: center;
-    -webkit-animation: colorchange 30s infinite;
-    animation: colorchange 30s infinite;
+    background: linear-gradient(#DCDBEA, white);
     border-bottom: solid #cccccc 2px;
     display: flex;
     height: 100px;
@@ -38,32 +37,27 @@ html {
 }
 
 @-webkit-keyframes colorchange {
-    0% {background: rgb(194, 247, 247)}
-    16% {background: #DAE7CF}
-    32% {background: rgb(255, 225, 148)}
-    48% {background: #F8D4CF}
-    64% {background: #DCDBEA}
-    80% {background: rgb(187, 212, 198)}
-    100% {background: rgb(167, 221, 185)}
+    0% {background: #4aaaa5}
+    50% {background: rgb(89, 205, 223)}
+    100% {background: #4aaaa5}
   }
   @@keyframes colorchange {
-    0% {background:  rgb(194, 247, 247)}
-    16% {background: #DAE7CF}
-    32% {background: rgb(255, 225, 148)}
-    48% {background:  #F8D4CF}
-    64% {background: #DCDBEA}
-    80% {background: rgb(187, 212, 198)}
-    100% {background: rgb(167, 221, 185)}
+    0% {background:  #4aaaa5}
+    50% {background: rgb(89, 205, 223)}
+    100% {background: #4aaaa5}
   }
 
 /* Teal section that contains my name (top-left) - in the Header */
 .my_name {
-    background-color: #4aaaa5;
+    -webkit-animation: colorchange 15s infinite;
+    animation: colorchange 15s infinite;
+    /* background-color: #4aaaa5; */
+    border-bottom: solid #cccccc 2px;
     color: #ffffff;
     display: flex;
     font-size: xx-large;
     justify-content: space-around;
-    padding: 35px 15px 35px 15px;
+    padding: 34px 15px 34px 15px;
 }
 
 a.brett_cimbalik_link {
@@ -72,7 +66,7 @@ a.brett_cimbalik_link {
 }
 
 a.brett_cimbalik_link:hover {
-    color: rgb(211, 0, 165);
+    color: #DF8C88;
 }
 
 /* Navigation bar (top-right) styling - also in the Header */
@@ -83,7 +77,7 @@ a.nav_list {
 }
 
 a.nav_list:hover {
-    color: rgb(211, 0, 165);
+    color: #DF8C88;
 }
 
 .nav_list {
@@ -189,7 +183,8 @@ a.nav_list:hover {
 .overlay {
     background-color: #4aaaa5;
     color: white;
-    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
     height: 18%;
     line-height: 45px;
     position: relative;
@@ -277,9 +272,10 @@ a.nav_list:hover {
 /******************************** Sticky footer section at bottom of page ********************************/
 .footer {
     align-items: center;
-    background-color: #666666;
+    /* background-color: #666666; */
+    background: linear-gradient(#F8D4CF, #DCDBEA);
     border-top: solid 10px #4aaaa5;
-    color: #cccccc;
+    color: gray;
     display: flex;
     justify-content: center;
     height: 100px;

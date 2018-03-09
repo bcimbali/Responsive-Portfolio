@@ -204,9 +204,7 @@ a.nav_list:hover {
 
 /* Portfolio image styling. */
 .portfolio_bottom img {
-    /* height: 200px; 
-    width: 270px; */
-    min-height: 200px;
+    height: 200px;
     width: 100%;
 }
 
@@ -221,11 +219,12 @@ a.nav_list:hover {
 }
 
 .portfolio_box {
+    /* height: 200px; */
     /* height: 240px;
     margin: 2px;
     width: 270px; */
     margin: 2px;
-    height: 65%;
+    /* height: 65%; */
     width: 45%;
 }
 

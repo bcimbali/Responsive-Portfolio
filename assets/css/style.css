@@ -158,6 +158,7 @@ a.nav_list:hover {
     height: 100%;
 }
 
+
 .connect_top {
     color: #4aaaa5;
     font-size: x-large;
@@ -175,6 +176,10 @@ a.nav_list:hover {
     padding: 30px;
     /* width: 270px;  */
     width: 22%;
+}
+
+.icon_links:hover .icon_images {
+    opacity: 0.4;
 }
 
 /*********************************** Portfolio section styling. *************************************/

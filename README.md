@@ -1,3 +1,11 @@
-# Responsive-Portfolio
+# My Portfolio
+My portfolio of personal web development projects.
 
-My portfolio but adjusted to be responsive for mobile and smaller screens. 
+## Check it out here:
+
+https://bcimbali.github.io/Responsive-Portfolio/
+
+## Built with:
+
+- HTML
+- CSS (and a sprinkling of animations)

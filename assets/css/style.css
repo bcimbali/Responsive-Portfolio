@@ -34,7 +34,7 @@ html {
 .header {
     align-items: center;
     background: linear-gradient(#DCDBEA, white);
-    border-bottom: solid #cccccc 2px;
+    border-bottom: solid #000000 2px;
     display: flex;
     height: 100px;
     justify-content: space-around;
@@ -56,7 +56,7 @@ html {
     -webkit-animation: colorchange 15s infinite;
     animation: colorchange 15s infinite;
     /* background-color: #4aaaa5; */
-    border-bottom: solid #cccccc 2px;
+    border-bottom: solid #000000 2px;
     color: #ffffff;
     display: flex;
     font-size: xx-large;
@@ -85,7 +85,7 @@ a.nav_list:hover {
 }
 
 .nav_list {
-    color: gray;
+    color: #000000;
     font-weight: bolder;
     display: flex;
     justify-content: space-around;
@@ -112,7 +112,7 @@ a.nav_list:hover {
 /********************************* The 'About Me' box on the left - in the Main Section *********************************/
 .about_me {
     background-color: #ffffff;
-    border: 1px solid lightgrey;
+    border: 1px solid #000000;
     display: flex;
     flex-direction: column;
     margin-top: 45px;
@@ -123,7 +123,7 @@ a.nav_list:hover {
 }
 
 .about_me_bottom {
-    border-top: solid #cccccc 2px;
+    border-top: solid #000000 2px;
     line-height: 30px;
     margin: 30px;
     padding-top: 30px;
@@ -151,7 +151,7 @@ a.nav_list:hover {
 
 .connect_bottom {
     align-items: center;
-    border-top: solid #cccccc 2px;
+    border-top: solid #000000 2px;
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
@@ -171,7 +171,7 @@ a.nav_list:hover {
 
 .connect_with_me {
     background-color: #ffffff;
-    border: 1px solid lightgrey;
+    border: 1px solid #000000;
     display: flex;
     flex-direction: column;  
     height: 50%;
@@ -214,7 +214,7 @@ a.nav_list:hover {
 
 /* Rest of the Portfolio section. */
 .portfolio_bottom {
-    border-top: solid #cccccc 2px;
+    border-top: solid #000000 2px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -248,7 +248,7 @@ a.nav_list:hover {
 
 /**************************************** Specific styling for contact section. ******************************/
 .contact_bottom {
-    border-top: solid #cccccc 2px;
+    border-top: solid #000000 2px;
     margin: 30px;
     padding-top: 30px;
 }
@@ -284,7 +284,8 @@ a.nav_list:hover {
     /* background-color: #666666; */
     background: linear-gradient(#F8D4CF, #DCDBEA);
     border-top: solid 10px #4aaaa5;
-    color: gray;
+    /* border-top: solid 10px rgb(89, 205, 223); */
+    color: #000000;
     display: flex;
     justify-content: center;
     height: 100px;

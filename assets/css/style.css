@@ -22,6 +22,10 @@ html {
     font-family: 'Roboto Mono', monospace;
 }
 
+/* Override text selection/highlight color to yellow. */
+::-moz-selection { background: yellow; }
+::selection { background: yellow; }
+
 /**************************** The background image - The wrapper for the ENTIRE page *******************/
 .body {
     /* background-image: url("./../images/memphis-colorful.png"); */

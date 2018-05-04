@@ -25,7 +25,7 @@ html {
 /**************************** The background image - The wrapper for the ENTIRE page *******************/
 .body {
     /* background-image: url("./../images/memphis-colorful.png"); */
-    background-color: #303030;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

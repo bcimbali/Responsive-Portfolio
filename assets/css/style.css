@@ -77,7 +77,8 @@ a.brett_cimbalik_link {
 }
 
 a.brett_cimbalik_link:hover {
-    color: rgb(255, 13, 0);
+    /* color: rgb(255, 13, 0); */
+    color: #FF3855;
 }
 
 /* Navigation bar (top-right) styling - also in the Header */
@@ -225,12 +226,14 @@ a.nav_list:hover {
 
 /* Portfolio image styling. */
 .portfolio_bottom img {
+    filter: blur(20px);
     height: 200px;
     width: 100%;
 }
 
 .portfolio_bottom img:hover {
-    opacity: 0.4;
+    filter: none;
+    /* opacity: 0.4; */
 }
 
 /* Rest of the Portfolio section. */

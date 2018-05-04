@@ -88,7 +88,7 @@ a.nav_list:hover {
 }
 
 .nav_list {
-    color: rgb(255, 0, 255);
+    color: #ffffff;
     font-weight: bolder;
     display: flex;
     justify-content: space-around;
@@ -309,7 +309,7 @@ a.nav_list:hover {
     background: #303030;
     border-top: solid 2px #FFFFFF;
     /* border-top: solid 10px rgb(89, 205, 223); */
-    color: #00fff2;
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     height: 70px;

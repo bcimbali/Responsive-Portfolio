@@ -30,6 +30,7 @@ html {
 .body {
     /* background-image: url("./../images/memphis-colorful.png"); */
     background-color: #FFFFFF;
+    cursor: url('./../images/brett_favicon.ico'), crosshair;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

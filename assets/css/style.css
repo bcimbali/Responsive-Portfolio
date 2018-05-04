@@ -44,12 +44,13 @@ html {
     0% {background: #4aaaa5}
     50% {background: rgb(89, 205, 223)}
     100% {background: #4aaaa5}
-  }
-  @@keyframes colorchange {
+}
+
+@keyframes colorchange {
     0% {background:  #4aaaa5}
     50% {background: rgb(89, 205, 223)}
     100% {background: #4aaaa5}
-  }
+}
 
 /* Teal section that contains my name (top-left) - in the Header */
 .my_name {
@@ -200,11 +201,11 @@ a.nav_list:hover {
     text-align: center;
     top: -65px;
     width: 100%;
-  }
+}
 
-  .overlay a {
-      text-decoration: none;
-  }
+.overlay a {
+    text-decoration: none;
+}
 
 /* Portfolio image styling. */
 .portfolio_bottom img {

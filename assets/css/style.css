@@ -68,7 +68,7 @@ html {
     /* border-bottom: solid #FFFFFF 2px; */
     color: #303030;
     display: flex;
-    font-size: calc(15px + (40 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(15px + (34 - 14) * ((100vw - 300px) / (1600 - 300)));
     height: 100%;
     justify-content: space-around;
     padding: 34px 15px 34px 15px;

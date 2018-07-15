@@ -251,6 +251,7 @@ a.nav_list:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    line-height: 30px;
     margin: 30px 3%;
     padding-top: 30px;
 }

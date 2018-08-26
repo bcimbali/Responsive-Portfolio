@@ -3,7 +3,7 @@ My portfolio of personal web development projects.
 
 ## Check it out here:
 
-https://brettcimbalik.com/
+https://bcimbali.github.io/Responsive-Portfolio/
 
 ## Screenshots
 
